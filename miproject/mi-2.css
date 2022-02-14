@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+  color: #000000;
+  box-sizing: border-box;
+}
+.header {
+  min-height: 40px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f6f6f6;
+}
+.header_icon:nth-child(n + 2) {
+  padding-left: 15px;
+}
+.header__icon_bar {
+  display: flex;
+}
+.header__drop_menu {
+  margin-right: auto;
+  padding-left: 10px;
+  position: relative;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.header__icon_bar {
+  margin-left: auto;
+}
+.header__drop_list {
+  position: absolute;
+  display: none;
+  white-space: nowrap;
+  left: -15px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.sub-menu__item {
+  padding: 10px 30px;
+}
+.header__drop_menu:hover > .header__drop_list {
+  display: block; 
+}
+.phone:hover {
+  color: #ff6900;
+}
+.header::after {
+  content: " ";
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  background-color: #f6f6f6;
+
+  margin-bottom: 40px;
+  margin-top: 22px;
+}
+.body__phone_container {
+  width: 264px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0 15px 15px;
+  margin-bottom: 30px;
+}
+.body__phone_photo {
+  width: 100%;
+  text-align: center;
+}
+.body__text__sale {
+  margin: 30px -2px 0 -2px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  color: #ff6900;
+}
+.body__text_phone {
+  margin-top: 10px;
+}
+.body-card__title-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.body__price {
+  font-family: "Roboto", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 100%;
+}
+.price2 {
+  color: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  font-weight: 400;
+  margin-left: 10px;
+  text-decoration-line: line-through;
+}
+.body__button {
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 0;
+  color: #ff6900;
+  font-size: 18px;
+  font-weight: 500;
+}
+.button:hover {
+  background-color: #ff6900;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
