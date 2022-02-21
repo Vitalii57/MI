@@ -56,6 +56,7 @@ li {
   color: #ff6900;
 }
 .nav_phone {
+  display: block;
   padding-bottom: 20px;
   padding-top: 20px;
 }
