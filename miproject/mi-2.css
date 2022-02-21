@@ -45,16 +45,19 @@ li {
   white-space: nowrap;
   left: -15px;
   background-color: #fff;
-  margin-top: 20px;
 }
 .sub-menu__item {
   padding: 10px 30px;
 }
 .header__drop_menu:hover > .header__drop_list {
-  display: block; 
+  display: block;
 }
 .phone:hover {
   color: #ff6900;
+}
+.nav_phone {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .header::after {
   content: " ";
